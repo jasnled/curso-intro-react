@@ -1,0 +1,16 @@
+ul {
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    
+}
+
+.container{
+  display: grid;
+  align-content: center;
+  height:calc(100% - 163px);
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
